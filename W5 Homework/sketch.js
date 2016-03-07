@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(100);
-  chee = color(255);
+  chee = color(255,255,255);
   
 }
 
@@ -10,7 +10,7 @@ function draw() {
 }
 
 function mousePressed(){
-  chee = color (random(255));
+  chee = color (random(255),random(255),random(255));
   
 }
 
